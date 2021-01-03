@@ -9,18 +9,17 @@
   <url>http://maven.apache.org</url>
   <dependencies>
   
-  
   <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-core</artifactId>
-    <version>${tomcat.version}</version>
-  </dependency>
-
-  <dependency>
+    <version>10.0.0</version>
+</dependency>
+   <dependency>
     <groupId>org.apache.tomcat.embed</groupId>
     <artifactId>tomcat-embed-jasper</artifactId>
-    <version>${tomcat.version}</version>
-  </dependency>
+    <version>10.0.0</version>
+</dependency>
+  
 
     <dependency>
   <groupId>javax.servlet</groupId>
